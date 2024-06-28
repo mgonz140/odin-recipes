@@ -1,0 +1,19 @@
+/* styles for Banana Pudding page */
+
+body {
+    background-color: darkorchid;
+    color: gold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    color: yellow;
+}
+
+li::marker {
+    color: black;
+}
