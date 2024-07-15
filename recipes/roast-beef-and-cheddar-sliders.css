@@ -1,13 +1,33 @@
 /* styles for Roast Beef and Cheddar Sliders */
 
+* {
+    box-sizing: border-box;
+}
+
+#description-left-aligned {
+    display: inline-block;
+    text-align: left;
+}
+
+.centered-container {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.centered-list {
+    display: inline-block;
+    text-align: left;
+}
+
 body {
     background-color: darkorchid;
     color: gold;
     font-family:Arial, Helvetica, sans-serif;
 }
 
-h1 {
-    text-align: center;
+img {
+    border: 2px solid gold;
 }
 
 a {
